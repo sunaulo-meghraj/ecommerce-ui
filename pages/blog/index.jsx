@@ -59,7 +59,9 @@ const index = () => {
           </div>
         </div>
 
-        <div className=" w-1/5  bg-gray-300">bhcbd</div>
+        <div className=" w-1/5 text-xl  bg-gray-300">
+          <h1>icejnc</h1>
+        </div>
       </div>
     </Fragment>
   );

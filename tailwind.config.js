@@ -14,7 +14,7 @@ module.exports = {
         100: "34rem",
       },
       fontFamily: {
-        sans: ["Work Sans", ...defaultTheme.fontFamily.sans],
+        sans: ["Raleway", ...defaultTheme.fontFamily.sans],
       },
     },
   },
