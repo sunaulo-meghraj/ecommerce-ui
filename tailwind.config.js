@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
@@ -10,6 +12,9 @@ module.exports = {
       }),
       height: {
         100: "34rem",
+      },
+      fontFamily: {
+        sans: ["Work Sans", ...defaultTheme.fontFamily.sans],
       },
     },
   },
