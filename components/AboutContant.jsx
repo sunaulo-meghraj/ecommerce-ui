@@ -4,7 +4,7 @@ const AboutContant = () => {
   return (
     <div className="col-span-7 ">
       <h1 className="text-3xl md:text-6xl ">About The Tests</h1>
-      <p className="text-sm tracking-wider text-gray-400  my-10">
+      <p className="text-sm tracking-wider text-gray-300  my-10">
         This site is using the standard WordPress Theme Unit Test Data for
         content. The Theme Unit Test is a series of posts and pages that match
         up with a checklist on the WordPress codex. You can use the data and

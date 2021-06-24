@@ -6,7 +6,7 @@ import SidebarBlog from "../../components/SidebarBlog";
 const index = () => {
   return (
     <Fragment>
-      <div className="text-4xl bg-gray-200  px-10 font-light xl:px-40 py-20">
+      <div className="text-4xl bg-gray-100  px-10 font-light xl:px-40 py-20">
         Blog
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-12 my-32 mx-5 md:ml-20 md:mr-10 lg:space-x-6 lg:mx-[10%]  ">
