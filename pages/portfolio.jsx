@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 const Portfolio = () => {
   return (
     <Fragment>
-      <div className="py-20 text-xl px-10 md:px-20 lg:px-40 bg-gray-300 sm:text-3xl font-light">
+      <div className="py-20 text-xl px-10 md:px-20 lg:px-40 bg-gray-100 sm:text-3xl font-light">
         Portfolio
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-15 m-[10%]  ">

@@ -7,12 +7,14 @@ import { FaSearch, FaArrowRight } from "react-icons/fa";
 const SidebarBlog = () => {
   return (
     <div className=" col-span-4 w-full ">
-      <div className="flex justify-between items-center px-3 border text-gray-300 border-gray-300 bg-white">
+      <div className="flex justify-between items-stretch text-xl text-gray-400 border border-gray-900 ">
         <input
           type="text"
           placeholder="Type Here"
-          className="p-2 w-full border-r border-gray-300 "
+          style={{ height: "100%" }}
+          className=" flex-1"
         ></input>
+
         <FaSearch className=" ml-3" />
       </div>
       <TopPost />
