@@ -9,8 +9,8 @@ const index = () => {
       </div>
       <div className="flex justify-center	 py-20  ">
         <div className="w-3/5">
-          <div className="flex justify-start items-end bg-cover bg-no-repeat bg-center h-full  bg-blog-p">
-            <div className="bg-white w-80 p-6  flex justify-center   ">
+          <div className="flex justify-start items-end bg-cover bg-no-repeat bg-center h-full  bg-blog-p min-w-[200px]  ">
+            <div className="bg-[#ffffff] w-80 p-6  flex justify-center   ">
               <div className="border-b pb-3 text-sm text-gray-400 border-gray-400 hover:text-blue-800 font-semibold">
                 NEWS
               </div>
