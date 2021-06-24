@@ -1,0 +1,19 @@
+.project {
+  background-image: url("/hill.jpg");
+  height: 20rem;
+  width: 25rem;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.project:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/hill.jpg");
+  cursor: pointer;
+}
+.project p {
+  margin-top: 160px;
+}
