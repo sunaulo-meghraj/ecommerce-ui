@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="text-white text-xl my-24 pl-28">
           <p>Theme by Colorlib Powered by WordPress</p>
         </div>
-        <div className="icons  my-24  flex  top-15 right-11 ">
+        <div className="icons  my-24  flex absolute top-15 right-11 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="25"
